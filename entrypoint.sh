@@ -52,6 +52,6 @@ get_ssm_param() {
 
 for parameter in $(echo $parameter_name_list | sed "s/,/ /g"); do
   echo "PASSOU - $parameter"
-  get_ssm_param "${ssm_start_prefix}$parameter"
+#   get_ssm_param "${ssm_start_prefix}$parameter"
 done
 
