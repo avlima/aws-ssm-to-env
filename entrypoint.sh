@@ -14,7 +14,7 @@ fi
 
 region="$AWS_REGION"
 parameter_name_list="$INPUT_SSM_PARAMETER_LIST"
-prefix="${INPUT_PREFIX:-AWS_SSM_}"
+prefix="$INPUT_PREFIX"
 ssm_start_prefix="$INPUT_SSM_START_PREFIX"
 jq_filter="$INPUT_JQ_FILTER"
 simple_json="$INPUT_SIMPLE_JSON"
