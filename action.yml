@@ -8,6 +8,7 @@ inputs:
   prefix:
     description: 'Custom environmental variables prefix.'
     required: false
+    default: ''
   ssm_start_prefix:
     description: 'Filter SSM environment variables that starts with prefix.'
     required: false
