@@ -1,6 +1,6 @@
 # aws-ssm-to-env
 
-> Parse AWS Systems Manager parameters to environment variables.
+> Get AWS SSM Parameter values to environment variables.
 
 ## Table of Contents
 
