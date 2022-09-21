@@ -1,4 +1,4 @@
-# aws-ssm-to-env
+# aws-ssm-to-env (GitHub Actions)
 
 > Get AWS SSM Parameter values to environment variables.
 
